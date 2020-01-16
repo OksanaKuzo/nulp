@@ -1,0 +1,17 @@
+<html ng-app="WordcountApp">
+
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
+
+<body  ng-controller="WordcountController">
+
+<form  method="post" action="{{ url_for('hello_world') }}">
+  Choose hospital:
+    {{ form.csrf_token }}
+    {{ form.hospital }}
+
+  <input type="submit">
+</form>
+</body>
+
+
+</html>

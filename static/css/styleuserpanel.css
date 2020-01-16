@@ -1,0 +1,186 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+     text-align: center;
+}
+
+.top{
+    width: 100%;
+    height: 80px;
+    background:  linear-gradient(45deg, #508cfe, #64cffe);
+}
+
+.top h1{
+    padding-left: 23px;
+    margin: 0;
+    line-height: 80px;
+    text-align: left;
+    color: lemonchiffon;
+}
+.main_panel {
+
+    width: 100%;
+    height: 600px;
+    margin: 0 auto;
+}
+#func_panel_name, #data_panel_name, #finance_panel_name{
+    margin-top: 25px;
+    font-weight: bold;
+    color: #071739;
+    font-size: 25px;
+     display: inline-block;
+    font-family: "Calibri Light";
+}
+#data_panel_name{
+    width: 450px;
+}
+#func_panel_name{
+    float: left;
+    margin-left: 23px;
+    width: 350px;
+}
+#finance_panel_name {
+    float: right;
+     margin-right: 23px;
+    width: 350px;
+}
+
+
+
+ul li:hover{
+    background-color: #5fb5fe;
+    transition: 0.5s;
+}
+ul li a{
+    display: block;
+}
+a:visited{
+        color: white;
+}
+
+a:active{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+
+}
+
+#Delete_li:hover{
+    background-color: crimson;
+}
+#Add_li:hover{
+    background-color: #2ecc71;
+}
+#Add_li{
+    padding-top: 10px;
+
+}
+#Time_li{
+    padding-bottom: 10px;
+    margin-bottom: 0px ;
+}
+
+#Delete_li2:hover{
+    background-color: crimson;
+}
+#Add_li2:hover{
+    background-color: #2ecc71;
+}
+#Add_li2{
+    padding-top: 10px;
+
+}
+#Time_li2{
+    padding-bottom: 10px;
+    margin-bottom: 0px ;
+}
+ul{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+
+}
+ul li{
+    text-transform: uppercase;
+    padding-left: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: block;
+    list-style-type: none;
+
+}
+
+.data_panel, .func_panel, .finance_panel {
+    margin-top: 5px;
+    display: inline-block;
+    border: none;
+    border-radius: 23px;
+    color: white;
+}
+
+.func_panel{
+    border-left: none;
+    font-size: 23px;
+    margin-left: 23px;
+    font-weight: bold;
+    float: left;
+    width: 350px;
+    height: auto;
+    overflow: hidden;
+    background-color: #508cfe;
+}
+
+.data_panel{
+    text-align: left;
+    font-size: 25px;
+    width: 550px;
+    height: 500px;
+    background:  linear-gradient(45deg, #508cfe, #64cffe);
+}
+
+
+.first, .second, .third, .fourth, .fifth{
+    height: 25%;
+    width: 100%;
+    border-bottom: solid;
+    border-width: 1px;
+}
+#first_name, #second_name, #third_name, #fourth_name, #fifth_name{
+    float:left;
+    margin-top: 24px;
+    margin-left: 24px;
+    font-size: 30px;
+    text-align: left;
+    position: relative;
+}
+
+
+#first_count, #second_count, #third_count, #fourth_count, #fifth_count{
+    float: left;
+    position: relative;
+    text-align: left;
+   top: 75px;
+
+}
+#first_type, #second_type, #third_type, #fourth_type, #fifth_type{
+   margin-right: 20px;
+}
+
+
+.finance_panel{
+   border-left: none;
+    font-size: 23px;
+    margin-right: 23px;
+    font-weight: bold;
+    float: right;
+    width: 350px;
+    height: auto;
+    overflow: hidden;
+    background-color: #64cffe;
+}
